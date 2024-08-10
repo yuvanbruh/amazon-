@@ -290,8 +290,8 @@ ul a {
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
-        align-items: flex-start;
-        height: auto;
+        align-items: center;
+        padding: 10px;
     }
     
     .nav-search {
@@ -306,10 +306,12 @@ ul a {
     
     .arizon {
         margin-left: 0;
+        margin-top: 10px;
     }
     
     .cart {
         padding-left: 20px;
+        margin-top: 10px;
     }
     
     .hero-section {
@@ -340,7 +342,8 @@ ul a {
 @media (max-width: 480px) {
     nav {
         align-items: center;
-        padding: 5px; /* Ensure the padding is consistent */
+        flex-direction: column;
+        padding: 10px;
     }
     
     .nav-address, .cart {
@@ -351,6 +354,7 @@ ul a {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin-top: 10px;
     }
     
     .logo1, .nav-logo {
@@ -360,6 +364,7 @@ ul a {
     
     .arizon {
         margin-left: 0;
+        margin-top: 10px;
     }
     
     .hero-section {
@@ -379,4 +384,5 @@ ul a {
         padding: 5px;
     }
 }
+
 
